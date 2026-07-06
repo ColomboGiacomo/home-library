@@ -20,6 +20,7 @@ HomeLibrary is a Java desktop application for managing a personal home library u
   - Reading status
   - Personal rating
   - Notes
+  - Review
 
 ## Technologies
 
