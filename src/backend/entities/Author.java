@@ -23,5 +23,14 @@ public class Author {
 	public LocalDate getBirthDate() { return birthDate; }
 		
 	public String getCountry() { return country; }
+	
+	@Override
+	public String toString() {
+		return "Author{" +
+				"id = " + id +
+				", name = " + fullName +
+				", country = " + country +
+				'}';
+	}
 		
 }

@@ -70,7 +70,26 @@ public class Book {
 	public int getIdPublisher() { return idPublisher; }
 
 	public int getIdGenre() { return idGenre; }
-		
+	
+	@Override
+	public String toString() {
+		return "Book{" +
+				"id = " + id +
+				", title = " + title +
+				", isbn = " + isbn +
+				", publication year = " + publicationYear +
+				", number of pages = " + numberOfPages +
+				", language = " + language +
+				", reading status = " + readingStatus +
+				", rating = " + rating +
+				", notes = " + notes +
+				", review = " + review +
+				", id author = " + idAuthor +
+				", id publisher = " + idPublisher +
+				", id genre = " + idGenre +
+				'}';
+	}
+	
 	
 	
 }
