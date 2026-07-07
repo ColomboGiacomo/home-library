@@ -1,6 +1,6 @@
 # Eclipse
 bin/
-config/database.properties
+src/resources/database.properties
 
 # Java
 *.class
